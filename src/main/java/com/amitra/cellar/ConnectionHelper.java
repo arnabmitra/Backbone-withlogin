@@ -23,6 +23,7 @@ public class ConnectionHelper
             driver = bundle.getString("jdbc.driver");
             Class.forName(driver);
             url=bundle.getString("jdbc.url");
+            System.out.println("The url is"+url);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
