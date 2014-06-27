@@ -12,6 +12,8 @@ public class ConnectionHelper
 
 	private ConnectionHelper()
 	{
+
+        //Testing a branch and merge
     	String driver = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
