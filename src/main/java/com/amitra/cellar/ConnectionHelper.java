@@ -25,6 +25,7 @@ public class ConnectionHelper
             url=bundle.getString("jdbc.url");
             System.out.println("The url is"+url);
             System.out.println("The url is"+url);
+            System.out.println("The url is"+url);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
